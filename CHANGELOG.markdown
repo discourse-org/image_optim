@@ -2,6 +2,9 @@
 
 ## unreleased
 
+* Add `timeout` option to workers [#21](https://github.com/toy/image_optim/issues/21)
+[@tgxworld](http://github.com/tgxworld)
+
 ## v0.24.2 (2017-02-18)
 
 * Describe `nice` level option [#140](https://github.com/toy/image_optim/issues/140) [@toy](https://github.com/toy)

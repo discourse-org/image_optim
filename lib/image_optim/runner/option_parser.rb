@@ -181,6 +181,10 @@ ImageOptim::Runner::OptionParser::DEFINE = proc do |op, options|
     options[:allow_lossy] = allow_lossy
   end
 
+  op.on('--timeout N', 'Sets a timeout for workers') do |timeout|
+    options[:timeout] = timeout.to_i
+  end
+
   op.separator nil
 
   ImageOptim::Worker.klasses.each_with_index do |klass, i|
